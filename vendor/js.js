@@ -1,7 +1,7 @@
 var Mule = window.Mule;
 
 (function($, window) {
-    function umnome() {
+    function x() {
         var params={};
 		window.location.search
 		.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(str,key,value) {
@@ -22,13 +22,13 @@ accounts = window.accounts;
         mule.reload()
     }
 
-    $('#qualquerum').click(
+    $('#button').click(
         function() {
             console.log('test');
-            umnome();
+            x();
         }
     );
-umnome()
+x()
      
  
 })($, window)
