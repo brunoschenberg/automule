@@ -76,7 +76,7 @@ Mule.prototype.query = function(ignore_cache) {
 
 	var CR = { guid: this.guid }
 	console.log(this.guid);
-	var accounts = window.account;
+	var accounts = window.accounts;
 	var pass = accounts[this.guid] || ''
 
 	var platform = this.guid.split(':')[0]
